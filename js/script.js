@@ -14,7 +14,11 @@ project 1 - A Random Quote Generator
   Add the `year` property to at least one object in the array.
   Use console.log() to log your array of quotes to the console.
 ***/
-
+var quotes = [
+  ["You can do it", "Nike"],
+  ["Yes here we go", "Harshil"],
+  ["We code all night", "2012-me"],
+]
 
 
 
@@ -24,6 +28,10 @@ project 1 - A Random Quote Generator
    - Cse the random number to `return` a random quote object from the `quotes` array.
 ***/
 
+function getRandomQuote() {
+  randomQuote = Math.floor(Math.random()*quotes.length);
+
+}
 
 
 
